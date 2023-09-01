@@ -39,6 +39,18 @@
   font-weight: 500;
   min-width: 70px;
 }
+.productCard .remove{
+  background-color: red;
+}
+.productCard .remove:hover{
+  background-color: #ff0000;
+}
+.productCard .add{
+  background-color: green;
+}
+.productCard .add:hover{
+  background-color: #00ff00;
+}
 
   
   

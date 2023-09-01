@@ -6,6 +6,7 @@ import About from '../pages/About'
 import Features from '../pages/Features'
 import Licensing from '../pages/Licensing'
 import ContactUs from '../pages/ContactUs'
+import PageNotFound from '../pages/PageNotFound'
 
 
 
@@ -19,7 +20,7 @@ export const AllRoutes = () => {
       <Route path="/features" element={<Features />} />
       <Route path="/licensing" element={<Licensing />} />
       <Route path="/contact" element={<ContactUs />} />
-      <Route path="*" element={<h1>Not Found</h1>} />
+      <Route path="*" element={<PageNotFound />} />
 
       
 
