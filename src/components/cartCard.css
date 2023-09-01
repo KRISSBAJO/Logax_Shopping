@@ -1,0 +1,54 @@
+/* cartCard.css */
+
+/* Common styles for cart cards */
+.cartCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.cartCard:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image */
+.cartCard img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+/* Product name */
+.productName {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Product price */
+.productPrice {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Remove button */
+.cartCard .btn {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cartCard .btn:hover {
+  background-color: #cc0000;
+}

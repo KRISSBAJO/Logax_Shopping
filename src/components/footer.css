@@ -1,0 +1,65 @@
+/* Footer.css */
+
+.footer {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 40%;
+  }
+  
+  .footer-logo span {
+    font-size: 1.5rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .footer-divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .footer-copy {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+  }
+  
+  .footer-copy a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Add more custom styles as needed */
+
+  
+  

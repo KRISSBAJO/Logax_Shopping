@@ -1,0 +1,106 @@
+/* header.css */
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(222, 217, 217);
+    align-items: center;
+  }
+  
+ 
+  
+  .navbar {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+  }
+  
+  .items {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .navigation{
+        display: none;
+    }
+    }
+    .navigation {
+        display: flex;
+        gap: 20px;
+    }
+    .link {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    .items {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    .navigation :hover{
+      font-weight: 500;
+      min-width: 70px;
+      padding: 6px 10px;
+     
+      border-radius: 20px;
+      display: inline-block;
+      text-align: center;
+      transition: background-color 0.3s;
+      background-color: #e0e0e0;
+    }
+    .items{
+        font-weight: 500;
+        min-width: 70px;
+    }
+
+.active-link {
+  color: blue;
+}
+.header {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+.logo-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 10px 0;
+  
+
+}
+
+.items {
+  font-weight: 500;
+  min-width: 70px;
+  padding: 6px 10px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.items span {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.items:hover {
+  background-color: #e0e0e0;
+}
+
+

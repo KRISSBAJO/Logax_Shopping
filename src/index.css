@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+ 
+}
+
+html, body {
+  height: 100%; /* Ensure the body takes up the full height of the viewport */
+}
+
+main {
+  flex: 1; /* Use flex to make the main content expand and push the footer down */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Your other styles... */
