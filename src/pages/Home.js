@@ -5,7 +5,7 @@ import { ProductCart } from '../components'
 import "./home.css"
 export default function Home() {
   const products = [
-    { id: 1, name: "Blue Gem Laptop", price: 1700, image: "/assets/image1.png" },
+    { id: 1, name: "Blue Gem ", price: 1700, image: "/assets/image1.png" },
     { id: 2, name: "Galaxy X Laptop", price: 2500, image: "/assets/image2.png" },
     { id: 3, name: "NextJ Book", price: 1300, image: "/assets/image.png" },
     { id: 4, name: "GenZ ", price: 400, image: "/assets/image3.png" },
@@ -15,6 +15,7 @@ export default function Home() {
   return (
     <main>
       <section className="products">
+        <h1>Next Generation Laptop</h1>
         <div className="product-row">
           {products.map((product) => (
             <ProductCart key={product.id} product={product} />

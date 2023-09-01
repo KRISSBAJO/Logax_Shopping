@@ -5,6 +5,7 @@ import  Home from '../pages/Home'
 import About from '../pages/About'
 import Features from '../pages/Features'
 import Licensing from '../pages/Licensing'
+import ContactUs from '../pages/ContactUs'
 
 
 
@@ -17,6 +18,9 @@ export const AllRoutes = () => {
       <Route path="/about" element={<About />} />
       <Route path="/features" element={<Features />} />
       <Route path="/licensing" element={<Licensing />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="*" element={<h1>Not Found</h1>} />
+
       
 
     </Routes>
