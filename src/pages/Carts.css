@@ -1,0 +1,85 @@
+.main {
+  padding: 20px;
+}
+
+.cart {
+  text-align: center;
+  margin: 20px;
+}
+
+.cart h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cart span {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2.4rem;
+}
+
+.cartCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cartCard img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.cartCard .productDetails {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartCard .productDetails .name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cartCard .productDetails .price {
+  font-size: 16px;
+  color: #666;
+}
+
+.cartCard .productActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cartCard .productActions button {
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #35dc0c;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cartCard .productActions button.remove {
+  background-color: #ac0d14;
+}
+
+.cartCard .productActions button:hover {
+  background-color: #2a9704;
+}
+
+.cartCard .productActions button.remove:hover {
+  background-color: #8e090f;
+}

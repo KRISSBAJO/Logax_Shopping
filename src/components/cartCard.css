@@ -39,7 +39,7 @@
 }
 
 /* Remove button */
-.cartCard .btn {
+.cartCard button {
   background-color: #ff0000;
   color: white;
   border: none;
@@ -49,6 +49,6 @@
   transition: background-color 0.3s;
 }
 
-.cartCard .btn:hover {
+.cartCard button:hover {
   background-color: #cc0000;
 }

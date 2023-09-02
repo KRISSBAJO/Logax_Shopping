@@ -1,106 +1,49 @@
-/* header.css */
-
 /* Header styles */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(222, 217, 217);
-    align-items: center;
-  }
-  
- 
-  
-  .navbar {
-    display: flex;
-    gap: 40px;
-  }
-  
-  .link {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-
-  }
-  
-  .items {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-  }
-  
-
-  @media screen and (max-width: 768px) {
-    .navigation{
-        display: none;
-    }
-    }
-    .navigation {
-        display: flex;
-        gap: 20px;
-    }
-    .link {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-    }
-    .items {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-    }
-    .navigation :hover{
-      font-weight: 500;
-      min-width: 70px;
-      padding: 6px 10px;
-     
-      border-radius: 20px;
-      display: inline-block;
-      text-align: center;
-      transition: background-color 0.3s;
-      background-color: #e0e0e0;
-    }
-    .items{
-        font-weight: 500;
-        min-width: 70px;
-    }
-
-.active-link {
-  color: blue;
-}
-.header {
   display: flex;
-  align-items: center; /* Vertically center items */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(222, 217, 217);
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  height: 80px;
 }
-.logo-name {
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin: 10px 0;
-  
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add some gap between the logo and text */
+}
+
+.logo img {
+  max-width: 40px;
+}
+
+.logo-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navigation .link {
+  padding: 10px;
+}
+
+.navigation .link.active {
+  background-color: #eeeeee;
+  border-radius: 5px;
 }
 
 .items {
   font-weight: 500;
   min-width: 70px;
-  padding: 6px 10px;
-  background-color: #f8f8f8;
-  border-radius: 20px;
-  display: inline-block;
-  text-align: center;
-  transition: background-color 0.3s;
 }
 
-.items span {
-  vertical-align: middle;
-  margin-right: 6px;
+@media screen and (max-width: 680px) {
+  .navigation {
+    display: none;
+  }
 }
-
-.items:hover {
-  background-color: #e0e0e0;
-}
-
-
